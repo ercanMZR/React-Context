@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { FavoritesContext } from '../../context/OrdersContext'
 import { Button } from '@mui/material'
+import { FavoritesContext } from '../context/OrdersContext'
 
 function Favorites() {
 
