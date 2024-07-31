@@ -63,8 +63,10 @@ function ProductList() {
 
 
     return <>
+
+
     <div style={{ height: 400, width: '100%' }}>
-        <Link  to="/addproduct">Add Product</Link>
+    <Link to="/addproduct" >Add Product</Link>
         <hr />
         <DataGrid
             rows={products}

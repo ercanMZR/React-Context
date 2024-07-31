@@ -23,5 +23,5 @@ export const FavoritesProvider=({children})=>{
         Setfavorites([])
     }
 
-    return <FavoritesContext.Provider value={{favOperation,clearFavorites,favorites}}></FavoritesContext.Provider>
+    return <FavoritesContext.Provider value={{favOperation,clearFavorites,favorites}}>{children}</FavoritesContext.Provider>
 }

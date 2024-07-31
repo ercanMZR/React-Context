@@ -9,11 +9,13 @@ import CommentSwr from "./components/pages/comments/CommentSwr";
 
 
 function App() {
+
+
   return <>
   
    <DashboardLayout>
       <Routes>
-        <Route path="/" element={<OrderList />} />
+        <Route path="/orders" element={<OrderList />} />
         <Route path="/favorites" element={<Favorites />} />
         <Route path="/addproduct" element={<AddProduct />} />
         <Route path="/productlist" element={<ProductList />} />  
